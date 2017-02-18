@@ -8,6 +8,7 @@ export interface IronScrollTargetBehavior {
   scrollTarget: Element;
 
   // Methods
+  scroll(options?: ScrollToOptions): void;
   scroll(left: number, top: number): void;
   toggleScrollListener(yes: boolean): void;
 }

@@ -3,11 +3,11 @@
 // Definitions by: Vlad Rindevich <https://github.com/Lodin>
 // Definitions: https://github.com/Lodin/polymer2-elements-typings
 
-import {Polymer} from '@polymer/polymer/src/typescript/polymer';
+import '@polymer/polymer/src/typescript/polymer';
 import {IronResizableBehavior} from '../iron-resizable-behavior/iron-resizable-behavior';
 import {AppScrollEffectsBehavior} from './app-scroll-effects-behavior';
 
-export declare class AppHeader extends Polymer.Element implements IronResizableBehavior, AppScrollEffectsBehavior {
+export class AppHeader extends Polymer.Element implements IronResizableBehavior, AppScrollEffectsBehavior {
   // Properties
   public condenses: boolean;
   public disabled: boolean;

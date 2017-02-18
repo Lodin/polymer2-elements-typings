@@ -3,10 +3,10 @@
 // Definitions by: Vlad Rindevich <https://github.com/Lodin>
 // Definitions: https://github.com/Lodin/polymer2-elements-typings
 
-import {Polymer} from '@polymer/polymer/src/typescript/polymer';
+import '@polymer/polymer/src/typescript/polymer';
 import {IronMenubarBehavior} from '../iron-menu-behavior/iron-menubar-behavior';
 
-export declare class PaperRadioGroup extends Polymer.Element implements IronMenubarBehavior {
+export class PaperRadioGroup extends Polymer.Element implements IronMenubarBehavior {
   // Properties
   public activateEvent: string;
   public allowEmptySelection: boolean;

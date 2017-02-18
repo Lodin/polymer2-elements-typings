@@ -3,10 +3,10 @@
 // Definitions by: Vlad Rindevich <https://github.com/Lodin>
 // Definitions: https://github.com/Lodin/polymer2-elements-typings
 
-import {Polymer} from '@polymer/polymer/src/typescript/polymer';
+import '@polymer/polymer/src/typescript/polymer';
 import {IronControlState} from '../iron-behaviors/iron-control-state';
 
-export declare class PaperSubmenu extends Polymer.Element implements IronControlState {
+export class PaperSubmenu extends Polymer.Element implements IronControlState {
   // Properties
   public disabled: boolean;
   public focused: boolean;

@@ -3,10 +3,10 @@
 // Definitions by: Vlad Rindevich <https://github.com/Lodin>
 // Definitions: https://github.com/Lodin/polymer2-elements-typings
 
-import {Polymer} from '@polymer/polymer/src/typescript/polymer';
+import '@polymer/polymer/src/typescript/polymer';
 import {PaperButtonBehavior} from '../paper-behaviors/paper-button-behavior';
 
-export declare class PaperButton extends Polymer.Element implements PaperButtonBehavior {
+export class PaperButton extends Polymer.Element implements PaperButtonBehavior {
   // Properties
   public active: boolean;
   public ariaActiveAttribute: string;

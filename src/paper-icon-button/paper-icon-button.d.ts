@@ -3,10 +3,10 @@
 // Definitions by: Vlad Rindevich <https://github.com/Lodin>
 // Definitions: https://github.com/Lodin/polymer2-elements-typings
 
-import {Polymer} from '@polymer/polymer/src/typescript/polymer';
+import '@polymer/polymer/src/typescript/polymer';
 import {PaperInkyFocusBehavior} from '../paper-behaviors/paper-inky-focus-behavior';
 
-export declare class PaperIconButton extends Polymer.Element implements PaperInkyFocusBehavior {
+export class PaperIconButton extends Polymer.Element implements PaperInkyFocusBehavior {
   // Properties
   public active: boolean;
   public alt: string;

@@ -3,11 +3,11 @@
 // Definitions by: Vlad Rindevich <https://github.com/Lodin>
 // Definitions: https://github.com/Lodin/polymer2-elements-typings
 
-import {Polymer} from '@polymer/polymer/src/typescript/polymer';
+import '@polymer/polymer/src/typescript/polymer';
 import {IronResizableBehavior} from '../iron-resizable-behavior/iron-resizable-behavior';
 import {AppDrawer} from './app-drawer';
 
-export declare class AppDrawerLayout extends Polymer.Element implements IronResizableBehavior {
+export class AppDrawerLayout extends Polymer.Element implements IronResizableBehavior {
   // Properties
   public drawer: AppDrawer;
   public forceNarrow: boolean;

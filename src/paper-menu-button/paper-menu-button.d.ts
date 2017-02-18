@@ -3,11 +3,11 @@
 // Definitions by: Vlad Rindevich <https://github.com/Lodin>
 // Definitions: https://github.com/Lodin/polymer2-elements-typings
 
-import {Polymer} from '@polymer/polymer/src/typescript/polymer';
+import '@polymer/polymer/src/typescript/polymer';
 import {IronA11yKeysBehavior} from '../iron-a11y-keys-behavior/iron-a11y-keys-behavior';
 import {IronControlState} from '../iron-behaviors/iron-control-state';
 
-export declare class PaperMenuButton extends Polymer.Element implements IronA11yKeysBehavior, IronControlState {
+export class PaperMenuButton extends Polymer.Element implements IronA11yKeysBehavior, IronControlState {
   // Properties
   public allowOutsideScroll: boolean;
   public closeAnimationConfig: Object;

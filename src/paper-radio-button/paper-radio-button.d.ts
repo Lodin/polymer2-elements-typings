@@ -3,7 +3,7 @@
 // Definitions by: Vlad Rindevich <https://github.com/Lodin>
 // Definitions: https://github.com/Lodin/polymer2-elements-typings
 
-import {Polymer} from '@polymer/polymer/src/typescript/polymer';
+import '@polymer/polymer/src/typescript/polymer';
 import {PaperCheckedElementBehavior} from '../paper-behaviors/paper-checked-element-behavior';
 
 export class PaperRadioButton extends Polymer.Element implements PaperCheckedElementBehavior {
@@ -31,7 +31,7 @@ export class PaperRadioButton extends Polymer.Element implements PaperCheckedEle
   // Methods
   public addOwnKeyBinding(eventString: string, handlerName: string): void;
   public ensureRipple(optTriggeringEvent: Event): void;
-  public getRipple(): void;
+  public getRipple(): typeof Polymer.Element;
   public hasRipple(): boolean;
   public hasValidator(): boolean;
   public keyboardEventMatchesKeys(event: KeyboardEvent, eventString: string): boolean;

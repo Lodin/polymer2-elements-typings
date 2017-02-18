@@ -3,10 +3,10 @@
 // Definitions by: Vlad Rindevich <https://github.com/Lodin>
 // Definitions: https://github.com/Lodin/polymer2-elements-typings
 
-import {Polymer} from '@polymer/polymer/src/typescript/polymer';
+import '@polymer/polymer/src/typescript/polymer';
 import {IronMenuBehavior} from '../iron-menu-behavior/iron-menu-behavior';
 
-export declare class PaperListbox extends Polymer.Element implements IronMenuBehavior {
+export class PaperListbox extends Polymer.Element implements IronMenuBehavior {
   // Properties
   public activateEvent: string;
   public attrForItemTitle: string;

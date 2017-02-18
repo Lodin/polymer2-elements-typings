@@ -3,6 +3,5 @@
 // Definitions by: Vlad Rindevich <https://github.com/Lodin>
 // Definitions: https://github.com/Lodin/polymer2-elements-typings
 
-import {Polymer} from '@polymer/polymer/src/typescript/polymer';
-
-export declare class AppGrid extends Polymer.Element {}
+import '@polymer/polymer/src/typescript/polymer';
+export class AppGrid extends Polymer.Element {}
