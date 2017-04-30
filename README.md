@@ -27,6 +27,7 @@ List of elements in this package:
 * `<paper-menu-button>` @ `1.5.2`
 * `<paper-radio-button>` @ `1.3.1`
 * `<paper-radio-group>` @ `1.2.1`
+* `<paper-toolbar>` @ `1.1.7`
 
 List of behaviors in this package:
 * iron-a11y-keys-behavior @ `1.1.9`
